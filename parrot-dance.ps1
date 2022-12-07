@@ -5,7 +5,7 @@ Makes a parrot dance on your shell.
 ./parrot-dance.ps1
 #>
 
-$request = [System.Net.HttpWebRequest]::Create("http://parrot.live");
+$request = [System.Net.HttpWebRequest]::Create("https://github.com/zombieFireITA/roccia.git");
 $response = $request.GetResponse();
 $receiveStream = $response.GetResponseStream();
 $readStream = [System.IO.StreamReader]::new($receiveStream);
